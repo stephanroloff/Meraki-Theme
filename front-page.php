@@ -4,6 +4,7 @@ get_header();
 
 ?>
 <h2>I'm the Front Page</h2>
+<h2>Miraki Theme</h2>
 
 <p>Icons from Font awesome</p>
 <i class="fa-solid fa-cubes"></i>

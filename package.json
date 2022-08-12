@@ -22,7 +22,7 @@
     "url": "https://github.com/stephanroloff/Meraki-Theme/issues"
   },
   "homepage": "https://github.com/stephanroloff/Meraki-Theme#readme",
-  "devDependencies": {
+  "dependencies": {
     "@wordpress/scripts": "^23.7.0"
   }
 }
