@@ -16,9 +16,14 @@
          do_action( 'wp_body_open' );
    }
    ?>
-   <?php the_custom_logo(); ?>
-   <h3>HEADER</h3>
-   <?php wp_nav_menu(array(
-      'theme_location' => 'header-menu'
-   )); ?>
-<hr>
+   <div class="all-content">
+      <header class="header-container full-width">
+         <div class="nav-menu container-global-wide">   
+            <?php the_custom_logo(); ?>
+            <?php wp_nav_menu(array(
+               'theme_location' => 'header-menu'
+            )); ?>
+         </div>
+      </header>
+      <main class="main-container">
+

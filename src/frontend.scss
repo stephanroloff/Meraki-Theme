@@ -1,0 +1,191 @@
+@import "./scss/variables.scss";
+@import "./scss/mixins.scss";
+
+
+//Containers Structure (Wide Width, Full Width)--------------------------------------------------------------------------
+.wp-block-group,
+.wp-block-image,
+.wp-block-media-text,
+.wp-block-columns {
+    background-color: $background-red;
+}
+
+.main-container > *{
+    max-width: $wide-width-content;
+    width: $wide-width-content;
+    margin: 0 auto;
+
+    &.alignwide{//Define Wide Width Gutenberg Blocks
+        width: $max-width-content;
+        max-width: $max-width-content;
+        background-color: $background-yellow;
+    }
+
+    &.alignfull{//Define Full Width Gutenberg Blocks
+        width: 100%;
+        max-width: 100%;
+        background-color: $background-blue;
+    }
+}
+
+//Heading--------------------------------------------------------------------------
+.main-container{
+    h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6{
+            margin: 0 auto;
+            padding: 0;
+            line-height: 1em;
+        }
+        h1{
+            @include headings(
+                $h1-font-family,
+                $h1-color,
+                $h1-background-color,
+                $h1-font-size,
+                $h1-line-height,
+                $h1-font-weight,
+                $h1-text-transform,
+                $h1-letter-spacing,
+                $h1-margin,
+                $h1-padding,
+                $h1-overflow-wrap
+            );
+        }
+        h2{
+            @include headings(
+                $h2-font-family,
+                $h2-color,
+                $h2-background-color,
+                $h2-font-size,
+                $h2-line-height,
+                $h2-font-weight,
+                $h2-text-transform,
+                $h2-letter-spacing,
+                $h2-margin,
+                $h2-padding,
+                $h2-overflow-wrap
+            );
+        }
+        h3{
+            @include headings(
+                $h3-font-family,
+                $h3-color,
+                $h3-background-color,
+                $h3-font-size,
+                $h3-line-height,
+                $h3-font-weight,
+                $h3-text-transform,
+                $h3-letter-spacing,
+                $h3-margin,
+                $h3-padding,
+                $h3-overflow-wrap
+            );
+        }
+        h4{
+            @include headings(
+                $h4-font-family,
+                $h4-color,
+                $h4-background-color,
+                $h4-font-size,
+                $h4-line-height,
+                $h4-font-weight,
+                $h4-text-transform,
+                $h4-letter-spacing,
+                $h4-margin,
+                $h4-padding,
+                $h4-overflow-wrap
+            );
+        }
+        h5{
+            @include headings(
+                $h5-font-family,
+                $h5-color,
+                $h5-background-color,
+                $h5-font-size,
+                $h5-line-height,
+                $h5-font-weight,
+                $h5-text-transform,
+                $h5-letter-spacing,
+                $h5-margin,
+                $h5-padding,
+                $h5-overflow-wrap
+            );
+        }
+        h6{
+            @include headings(
+                $h6-font-family,
+                $h6-color,
+                $h6-background-color,
+                $h6-font-size,
+                $h6-line-height,
+                $h6-font-weight,
+                $h6-text-transform,
+                $h6-letter-spacing,
+                $h6-margin,
+                $h6-padding,
+                $h6-overflow-wrap
+            );
+        }
+
+}
+
+//Paragraph--------------------------------------------------------------------------
+.main-container{
+    p{
+        @include headings(
+            $p-font-family,
+            $p-color,
+            $p-background-color,
+            $p-font-size,
+            $p-line-height,
+            $p-font-weight,
+            $p-text-transform,
+            $p-letter-spacing,
+            $p-margin,
+            $p-padding,
+            $p-overflow-wrap
+        );
+    }
+} 
+
+//Columns-------------------------------------------------------------------------------------
+.main-container{
+    .wp-block-columns{
+        margin: 0 auto;
+        padding: 0;
+        gap: 0;
+    }   
+}
+
+//Cover-------------------------------------------------------------------------------------
+.main-container{
+    .wp-block-cover *{
+        color: greenyellow;
+    }  
+}
+
+//Image-------------------------------------------------------------------------------------
+.main-container{
+    .wp-block-image{
+        margin: 0;
+        figure{
+            margin: 0;
+        }
+    }  
+}
+
+//Link-------------------------------------------------------------------------------------
+.main-container{
+    a{
+        margin: 0;
+        color: red;
+    } 
+}
+
+
+
+

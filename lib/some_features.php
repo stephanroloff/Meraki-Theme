@@ -4,6 +4,7 @@
 #theme supoorts & register menu
 
 function some_features(){
+    add_theme_support( 'align-wide' );
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     add_theme_support('custom-logo', 
@@ -14,6 +15,34 @@ function some_features(){
             'flex-height' => true,
         )
     );
+    add_theme_support( 'editor-color-palette', array(
+        array(
+            'name'  => esc_attr__( 'Gray', 'themeLangDomain' ),
+            'slug'  => 'Gray',
+            'color' => '#434448',
+        ),
+        array(
+            'name'  => esc_attr__( 'Black', 'themeLangDomain' ),
+            'slug'  => 'Black',
+            'color' => '#000000',
+        ),
+        array(
+            'name'  => esc_attr__( 'Gold', 'themeLangDomain' ),
+            'slug'  => 'Gold',
+            'color' => '#C3A573',
+        ),
+        array(
+            'name'  => esc_attr__( 'Red', 'themeLangDomain' ),
+            'slug'  => 'Red',
+            'color' => '#F55050',
+        ),
+        array(
+            'name'  => esc_attr__( 'White', 'themeLangDomain' ),
+            'slug'  => 'White',
+            'color' => '#ffffff',
+        ),
+    ) );	
+    add_theme_support( 'wp-block-styles' );
 
     register_nav_menu('header-menu', 'Header Menu');
     register_nav_menu('footer-menu', 'Footer Menu');

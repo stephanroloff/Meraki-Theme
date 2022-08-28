@@ -1,3 +1,3 @@
 import '../src/index.scss'
 
-alert('JAVASCRIPT WORKS HERE!!');
+console.log('JAVASCRIPT WORKS HERE!!');

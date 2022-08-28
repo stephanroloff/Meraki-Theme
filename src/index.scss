@@ -1,4 +1,7 @@
-body {
-    font-family: 'Oswald';
-    color: rgb(82, 193, 143);
-}
+@import './scss/normalize.scss';
+// @import './editor.scss';
+@import './scss/global.scss';
+@import './frontend.scss';
+@import './scss/header.scss';
+@import './scss/footer.scss';
+

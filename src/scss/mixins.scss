@@ -1,0 +1,27 @@
+//MIXINS-------------------------------------------------------------------------------------
+
+@mixin headings(
+    $h-font-family,
+    $h-color,
+    $h-background-color,
+    $h-font-size,
+    $h-line-height,
+    $h-font-weight,
+    $h-text-transform,
+    $h-letter-spacing,
+    $h-margin,
+    $h-padding,
+    $h-overflow-wrap
+    ){
+    font-family: $h-font-family;
+    color: $h-color;
+    background-color: $h-background-color;
+    font-size: $h-font-size;
+    line-height: $h-line-height;
+    font-weight: $h-font-weight;
+    text-transform: $h-text-transform;
+    letter-spacing: $h-letter-spacing;
+    margin: $h-margin;
+    padding: $h-padding;
+    overflow-wrap: $h-overflow-wrap;
+}

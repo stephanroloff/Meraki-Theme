@@ -7,9 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "wp-scripts start",
     "start:hot": "wp-scripts start --hot",
-    "build": "wp-scripts build"
+    "start": "wp-scripts start ./src/index.scss ./src/editor.scss ./src/frontend.scss --output-path=./build --hot",
+    "build": "wp-scripts build ./src/index.scss ./src/editor.scss ./src/frontend.scss --output-path=./build"
   },
   "repository": {
     "type": "git",
