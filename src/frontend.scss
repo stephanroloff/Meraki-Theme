@@ -1,3 +1,4 @@
+@import "./scss/fonts.scss";
 @import "./scss/variables.scss";
 @import "./scss/mixins.scss";
 
@@ -46,6 +47,7 @@
                 $h1-color,
                 $h1-background-color,
                 $h1-font-size,
+                $h1-font-style,
                 $h1-line-height,
                 $h1-font-weight,
                 $h1-text-transform,
@@ -61,6 +63,7 @@
                 $h2-color,
                 $h2-background-color,
                 $h2-font-size,
+                $h2-font-style,
                 $h2-line-height,
                 $h2-font-weight,
                 $h2-text-transform,
@@ -76,6 +79,7 @@
                 $h3-color,
                 $h3-background-color,
                 $h3-font-size,
+                $h3-font-style,
                 $h3-line-height,
                 $h3-font-weight,
                 $h3-text-transform,
@@ -91,6 +95,7 @@
                 $h4-color,
                 $h4-background-color,
                 $h4-font-size,
+                $h4-font-style,
                 $h4-line-height,
                 $h4-font-weight,
                 $h4-text-transform,
@@ -106,6 +111,7 @@
                 $h5-color,
                 $h5-background-color,
                 $h5-font-size,
+                $h5-font-style,
                 $h5-line-height,
                 $h5-font-weight,
                 $h5-text-transform,
@@ -121,6 +127,7 @@
                 $h6-color,
                 $h6-background-color,
                 $h6-font-size,
+                $h6-font-style,
                 $h6-line-height,
                 $h6-font-weight,
                 $h6-text-transform,
@@ -141,6 +148,7 @@
             $p-color,
             $p-background-color,
             $p-font-size,
+            $p-font-style,
             $p-line-height,
             $p-font-weight,
             $p-text-transform,
@@ -184,6 +192,29 @@
         margin: 0;
         color: red;
     } 
+}
+
+//Button-------------------------------------------------------------------------------------
+.main-container{
+    .wp-block-button{
+        font-family: 'Oswald';
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1.125em;
+        // padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        text-align: center;
+        text-decoration: none;
+        word-break: break-word;
+        box-sizing: border-box;
+        // a{
+        //     margin: 0;
+        //     color: white;
+        // } 
+    }
 }
 
 

@@ -42,7 +42,7 @@ function some_features(){
             'color' => '#ffffff',
         ),
     ) );	
-    add_theme_support( 'wp-block-styles' );
+    // add_theme_support( 'wp-block-styles' );
 
     register_nav_menu('header-menu', 'Header Menu');
     register_nav_menu('footer-menu', 'Footer Menu');
