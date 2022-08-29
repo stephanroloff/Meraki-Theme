@@ -1,5 +1,7 @@
 # Meraki-Theme
 
+"Doing something with Soul, creativity, or Love. To put something of yourself into your work"
+
 Hot Reload
 
 1 - Add the next line of code in scripts in package.json (already aded here):
