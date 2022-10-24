@@ -14,6 +14,6 @@ define( 'SCRIPT_DEBUG', true );
 
 3 - To activate it:
 
-npm run start:hot
+npm run start
 
 4 - That's it!

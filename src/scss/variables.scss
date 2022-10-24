@@ -1,21 +1,35 @@
 //Variables
 
 //Container Width
-$wide-width-content: 1680px;
-$max-width-content: 1920px;
+$wide-width-content: 1280px;  //En editor: none
+$max-width-content: 1920px;   //En editor: wide
 
 //Container Colors
-$background-red: rgb(229, 136, 136);
+// $background-red: rgb(229, 136, 136);
+$background-red: transparent;
 $background-yellow: rgb(212, 255, 0);
-$background-blue: rgb(7, 49, 75);
 $background-blue: rgb(0, 157, 255);
+
+//Colors
+$purple: #7A0E6F;
+$orange: #E35610;
+$yellow: #F0AB00;
+$white: #FFFFFF;
+$black: #000000;
+$transparent: transparent;
+
+//Fonts
+$font-primary: 'benton-sans-bold';
+$font-secondary: 'benton-sans-book';
+$font-tertiary: 'benton-sans-black';
+$font-quaternary: 'benton-sans-medium';
 
 //Heading
 //H1
-$h1-font-family: 'syne';
-$h1-color: rgb(0, 255, 183);
-$h1-background-color: purple;
-$h1-font-size: revert;
+$h1-font-family: $font-primary;
+$h1-color: $white;
+$h1-background-color: $transparent;
+$h1-font-size: 80px;
 $h1-font-style: normal;
 $h1-line-height: 1em;
 $h1-font-weight: inherit;
@@ -26,7 +40,7 @@ $h1-padding: 0;
 $h1-overflow-wrap: break-word;
 
 //H2
-$h2-font-family: 'Oswald';
+$h2-font-family: $font-primary;
 $h2-color: rgb(200, 255, 0);
 $h2-background-color: rgb(6, 0, 128);
 $h2-font-size: revert;
@@ -40,7 +54,7 @@ $h2-padding: 0;
 $h2-overflow-wrap: break-word;
 
 //H3
-$h3-font-family: 'Oswald';
+$h3-font-family: $font-primary;
 $h3-color: rgb(0, 255, 183);
 $h3-background-color: purple;
 $h3-font-size: revert;
@@ -54,7 +68,7 @@ $h3-padding: 0;
 $h3-overflow-wrap: break-word;
 
 //H4
-$h4-font-family: 'Oswald';
+$h4-font-family: $font-primary;
 $h4-color: rgb(0, 255, 183);
 $h4-background-color: purple;
 $h4-font-size: revert;
@@ -68,7 +82,7 @@ $h4-padding: 0;
 $h4-overflow-wrap: break-word;
 
 //H5
-$h5-font-family: 'Oswald';
+$h5-font-family: $font-primary;
 $h5-color: rgb(0, 255, 183);
 $h5-background-color: purple;
 $h5-font-size: revert;
@@ -82,7 +96,7 @@ $h5-padding: 0;
 $h5-overflow-wrap: break-word;
 
 //H6
-$h6-font-family: 'Oswald';
+$h6-font-family: $font-primary;
 $h6-color: rgb(0, 255, 183);
 $h6-background-color: purple;
 $h6-font-size: revert;
@@ -97,7 +111,7 @@ $h6-overflow-wrap: break-word;
 
 //Paragraph
 //p
-$p-font-family: 'Oswald';
+$p-font-family: $font-primary;
 $p-color: #000000;
 $p-background-color: transparent;
 $p-font-size: revert;

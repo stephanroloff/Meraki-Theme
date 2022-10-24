@@ -1,59 +1,6 @@
 @import "variables.scss";
 
-//Font-Color
-.has-red-color{
-    color: #F55050 !important;
-}
-.has-gold-color{
-    color:#C3A573 !important;
-}
-.has-black-color{
-    color:#000000 !important;
-}
-.has-gray-color{
-    color:#434448 !important;
-}
-.has-white-color{
-    color:#ffffff !important;
-}
-
-//Background-Color
-.has-red-background-color{
-    background-color: #F55050 !important;
-}
-.has-gold-background-color{
-    background-color:#C3A573 !important;
-}
-.has-black-background-color{
-    background-color:#000000 !important;
-}
-.has-gray-background-color{
-    background-color:#434448 !important;
-}
-.has-white-background-color{
-    background-color:#ffffff !important;
-}
-
-//Font-Size
-.ts-20{
-    font-size: 20px;
-}
-.ts-24{
-    font-size: 24px;
-}
-.ts-40{
-    font-size: 40px;
-}
-.ts-70{
-    font-size: 70px;
-}
-
-
 //Global-Structure
-body {
-    // font-family: 'Oswald';
-    color: rgb(55, 213, 174);
-}
 
 .all-content{
     width: 100%;

@@ -1,29 +1,52 @@
 @import "./scss/fonts.scss";
 @import "./scss/variables.scss";
 @import "./scss/mixins.scss";
+@import "./scss/extra-styles-native-blocks.scss";
 
 
 //Containers Structure (Wide Width, Full Width)--------------------------------------------------------------------------
+
+//Blocks with Wide Width, Full Width support
 .wp-block-group,
 .wp-block-image,
 .wp-block-media-text,
-.wp-block-columns {
+.wp-block-columns
+ {
     background-color: $background-red;
+    max-width: $wide-width-content;
+}
+
+//Block without Wide Width, Full Width support
+.wp-block-paragraph{
+    width: 100%;
 }
 
 .main-container > *{
+    width: 100%;
     max-width: $wide-width-content;
-    width: $wide-width-content;
     margin: 0 auto;
 
     &.alignwide{//Define Wide Width Gutenberg Blocks
-        width: $max-width-content;
         max-width: $max-width-content;
         background-color: $background-yellow;
     }
 
     &.alignfull{//Define Full Width Gutenberg Blocks
-        width: 100%;
+        max-width: 100%;
+        background-color: $background-blue;
+    }
+}
+
+.main-container *{
+    // width: 100%;
+    margin: 0 auto;
+
+    &.alignwide{//Define Wide Width Gutenberg Blocks
+        max-width: $max-width-content;
+        background-color: $background-yellow;
+    }
+
+    &.alignfull{//Define Full Width Gutenberg Blocks
         max-width: 100%;
         background-color: $background-blue;
     }
@@ -180,8 +203,8 @@
 .main-container{
     .wp-block-image{
         margin: 0;
+        max-width: 100%;
         figure{
-            margin: 0;
         }
     }  
 }
@@ -216,6 +239,7 @@
         // } 
     }
 }
+
 
 
 
